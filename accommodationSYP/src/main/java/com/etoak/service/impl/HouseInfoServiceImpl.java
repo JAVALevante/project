@@ -17,7 +17,7 @@ import com.github.pagehelper.PageInfo;
 public class HouseInfoServiceImpl implements HouseInfoService {
 
 	@Autowired
-	private HouseinfoMapper mapper;
+	private HouseinfoMapper maer;
 	
 	@Override
 	public Map<String, Object> query(Integer page, Integer rows) {
