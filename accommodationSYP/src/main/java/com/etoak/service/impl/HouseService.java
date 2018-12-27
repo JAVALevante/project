@@ -17,3 +17,4 @@ public interface HouseService {
 	House getHouseByid(Integer id);
 	List<House> getAll();
 }
+s
