@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.niit.entity.Liker" table="t_liker">
+		<id name="l_id" column="l_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="s_id" column="s_id"></property>
+		<property name="h_id" column="h_id"></property>
+		<property name="b_id" column="b_id"></property>
+		<property name="b_name" column="b_name"></property>
+		<property name="b_telephone" column="b_telephone"></property>
+		<property name="b_message" column="b_message"></property>
+		<property name="b_gender" column="b_gender"></property>
+		<property name="h_url" column="h_url"></property>
+		<property name="h_name" column="h_name"></property>
+		<property name="h_RB" column="h_RB"></property>
+	</class>
+</hibernate-mapping>
