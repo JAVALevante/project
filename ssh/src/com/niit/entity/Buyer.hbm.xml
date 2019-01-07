@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.niit.entity.Buyer" table="t_buyer">
+		<id name="b_id" column="b_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="b_name" column="b_name"></property>
+		<property name="b_password" column="b_password"></property>
+		<property name="b_username" column="b_username"></property>
+		<property name="b_age" column="b_age"></property>
+		<property name="b_telephone" column="b_telephone"></property>
+		<property name="b_gender" column="b_gender"></property>
+	</class>
+</hibernate-mapping>

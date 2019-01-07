@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.niit.entity.Saler" table="t_saler">
+		<id name="s_id" column="s_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="s_name" column="s_name"></property>
+		<property name="s_password" column="s_password"></property>
+		<property name="s_username" column="s_username"></property>
+		<property name="s_age" column="s_age"></property>
+		<property name="s_telephone" column="s_telephone"></property>
+		<property name="s_gender" column="s_gender"></property>
+	</class>
+</hibernate-mapping>
